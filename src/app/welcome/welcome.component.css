@@ -1,0 +1,51 @@
+/* Estilos para el contenedor principal */
+.welcome-container {
+    background: linear-gradient(45deg, #e30113, #003770);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos adicionales para el mensaje de bienvenida */
+  .system-engineering {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Estilos para el encabezado de bienvenida */
+  .welcome-heading {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Estilos para resaltar el nombre de la aplicación */
+  .investment-decisions {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Estilos para el botón azul */
+  .blue-button {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    background-color: #003770;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .blue-button:hover {
+    background-color: #020202;
+  }
+  
