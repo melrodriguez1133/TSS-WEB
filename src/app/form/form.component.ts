@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent {
-
+  showModal = false;
+  closeModal() {
+    this.showModal = false; // Asegúrate de tener una variable llamada showModal en tu componente
+  }
 }
